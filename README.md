@@ -1,17 +1,17 @@
 # Seunghyuk Portfolio Clone
 
-A responsive, motion-led recreation of the portfolio experience at [seunghyuk.com/portfolio](https://seunghyuk.com/portfolio).
+A responsive recreation of the full visual entry experience at [seunghyuk.com](https://seunghyuk.com/), including the editorial homepage, portfolio view, about/contact panels, language toggle, sound control, and project navigation.
 
-## Tools used
+## Tools and methods used
 
-- **Codex** for implementation, copy, interaction design, and validation.
-- **BrowserOS neo** for inspecting the reference site's layout, navigation, project index, and interaction model.
-- **HTML/CSS/vanilla JavaScript** for the static portfolio build.
-- **CSS animations and gradients** for the ambient visual stage and motion treatment.
+- **Codex** for implementation, responsive layout, interaction logic, and documentation.
+- **BrowserOS neo** to inspect the reference site's homepage and portfolio navigation.
+- **HTML, CSS, and vanilla JavaScript** for the static build.
+- **CSS gradients, typography, and keyframe animation** for the abstract motion-led visual stage.
 - **Google Fonts** (`Space Grotesk` and `DM Mono`) for the type system.
 - **Python HTTP server** for local preview.
 - **Codex Sites** for private deployment.
-- **Git/GitHub** for source control and publishing.
+- **Git and GitHub** for version control and source publishing.
 
 ## Run locally
 
@@ -20,8 +20,8 @@ npm run build
 npm run dev
 ```
 
-Then open `http://localhost:4173`.
+Open `http://localhost:4173`.
 
-## Notes
+## Attribution
 
-This is an independent recreation for learning and demonstration. It uses original CSS-generated visuals and does not copy proprietary media from the reference site. The project index, view switching, language toggle, sound control, and responsive layout are implemented in the single static page.
+This is an independent recreation for learning and demonstration. It uses original CSS-generated visuals rather than proprietary media from the reference site.
